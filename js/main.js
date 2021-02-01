@@ -25,7 +25,7 @@ const mischenZeit = 10;
 
 function preload() {
    img = loadImage(url[Math.floor(random(url.length))]);
-   song = loadSound('sound/Oh-by-jingo.mp3');
+   //song = loadSound('sound/Oh-by-jingo.mp3');
 
 };
 
@@ -37,8 +37,8 @@ function setup() {
    createCanvas(windowWidth, windowHeight);
    button1 = createButton('Reload the Puzzle');
    button1.mousePressed(nachLaden);
-   song.play();
-   slider = createSlider(0,1,0,0.01);
+   //song.play();
+   //slider = createSlider(0,1,0,0.01);
 
 
 
@@ -73,7 +73,7 @@ function setup() {
 function draw() {
    img.setFrame(frameCount % img.numFrames());
    frameRate(8);
-   song.setVolume(slider.value());
+   //song.setVolume(slider.value());
    background(197, 204, 193);
    image(img, width / 3, height / 8, 700, 750);
    // Confetti Schleife
