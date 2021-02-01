@@ -44,7 +44,15 @@ button,
   transition: all .2s ease-in-out;
 }
 
+;
+
 button:hover {
-  color: rgb(197, 204, 193);
+  color: #c5ccc1;
   background-color: #151515;
+}
+
+input[type=range] {
+  cursor: pointer;
+  margin: 2em;
+
 }
