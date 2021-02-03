@@ -71,3 +71,30 @@ input[type=range] {
   margin: 4.2em 3em;
 
 }
+
+
+
+@media screen and (max-width: 900px) {
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+
+  #timer {
+
+    position: absolute;
+    top: 90% !important;
+    left: 25% !important;
+    font-size: 1.2rem;
+
+  }
+
+  input[type=range] {
+    position: absolute;
+    top: 87%;
+    left: 60%;
+    width: 8rem;
+
+  }
+}
