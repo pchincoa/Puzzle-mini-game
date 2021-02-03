@@ -66,7 +66,7 @@ function setup() {
 
    let timer = select('#timer');
    timer.html(convertSeconds(counter));
-   remove = setInterval(timeIt, 800);
+   remove = setInterval(timeIt, 1000);
 
    // Settings Timer
 
