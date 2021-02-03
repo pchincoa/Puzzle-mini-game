@@ -1,19 +1,19 @@
-html,
-body {
-
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
 
 h1 {
   font-size: 2em;
-  font-family: 'Helvetica',
+  font-family: 'Heebo',
     sans-serif;
+  font-weight: 600;
+  color: #151515;
   display: block;
   padding: 1.2em;
   margin-top: 2em;
-
-
 
 }
 
@@ -32,27 +32,42 @@ canvas {
 
 button,
 #timer {
-  font-size: medium;
-  font-family: 'Helvetica', sans-serif;
+  font-size: 1.1em;
+  font-family: 'Heebo', sans-serif;
   border-radius: 0.5em;
+  color: #151515;
   border: none;
   opacity: 0.8;
   display: block;
   cursor: pointer;
-  padding: 1.2em;
+  padding: 0.6em;
   margin: 2em;
   transition: all .2s ease-in-out;
 }
 
-;
 
 button:hover {
   color: #c5ccc1;
   background-color: #151515;
 }
 
+#timer {
+  font-size: 1.5em;
+  margin: 0em 1.5em;
+  color: #c5ccc1;
+  background-color: #151515;
+
+}
+
+#timer:hover {
+  color: #151515;
+  background-color: #efefef;
+
+}
+
 input[type=range] {
+  width: 10.8rem;
   cursor: pointer;
-  margin: 2em;
+  margin: 4.2em 3em;
 
 }
