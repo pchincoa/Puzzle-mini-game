@@ -3,12 +3,11 @@
 let arr = [
    
    
-   "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.TlnuM6QaLbvyf00exjS6DAHaFk%26pid%3DApi&f=1",
-   //"https://media.giphy.com/media/xT0xesOvAnyiyPMjbq/source.gif", // Egon Schiele
-   //"https://media.giphy.com/media/gVJKzDaWKSETu/source.gif", // Frida Kahlo
-   //"https://media.giphy.com/media/xTiTnyVHRS87mtGPQs/source.gif", //  René Magritte
-   //"https://media.giphy.com/media/l4tV5VQbNScIikY4o/source.gif", //  Pablo Picasso
-   //"https://media.giphy.com/media/pJewxDQLE8iZi/source.gif", // Leonardo da Vinci
+   "https://media.giphy.com/media/xT0xesOvAnyiyPMjbq/source.gif", // Egon Schiele
+   "https://media.giphy.com/media/gVJKzDaWKSETu/source.gif", // Frida Kahlo
+   "https://media.giphy.com/media/xTiTnyVHRS87mtGPQs/source.gif", //  René Magritte
+   "https://media.giphy.com/media/l4tV5VQbNScIikY4o/source.gif", //  Pablo Picasso
+   "https://media.giphy.com/media/pJewxDQLE8iZi/source.gif", // Leonardo da Vinci
    "https://media.giphy.com/media/495Ifoc3oyEtwikNLx/source.gif" // Albrecht Dürer 
 ];
 
